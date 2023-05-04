@@ -12,7 +12,7 @@
 [[plugins]]
     package = "netlify-plugin-cypress"
 
-    [plugins.inputs.preBuild]
+    [plugins.inputs.postBuild]
         enable = true
         start = 'yarn start'
         wait-on = 'http://0.0.0.0:3000'
