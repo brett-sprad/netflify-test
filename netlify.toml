@@ -1,6 +1,6 @@
 [build]
     command = "yarn install && yarn build"
-    publish = "build"
+    publish = ".next"
 
 [build.environment]
     CYPRESS_CACHE_FOLDER = "./node_modules/CypressBinary"
