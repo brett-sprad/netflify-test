@@ -11,3 +11,9 @@
 
 [[plugins]]
     package = "netlify-plugin-cypress"
+
+    [plugins.inputs.preBuild]
+        enable = true
+        start = 'yarn start'
+        wait-on = 'http://localhost:3000'
+        wait-on-timeout = '15' # seconds
