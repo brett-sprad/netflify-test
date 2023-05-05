@@ -19,4 +19,4 @@
         record = true
         enable = true
         spa = true
-        start = 'yarn dev -p 8080'
+        start = 'yarn dev -p 3000'
