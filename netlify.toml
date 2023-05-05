@@ -11,12 +11,3 @@
 
 [[plugins]]
     package = "netlify-plugin-cypress"
-
-    [plugins.inputs]
-        enable = false
-
-    [plugins.inputs.preBuild]
-        record = true
-        enable = true
-        spa = true
-        start = 'yarn dev -p 3000'
