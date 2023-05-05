@@ -14,8 +14,8 @@
 
     [plugins.inputs]
         enable = false
-        
-    [plugins.inputs.postBuild]
+
+    [plugins.inputs.preBuild]
         record = true
         enable = true
         spa = true
