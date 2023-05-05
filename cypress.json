@@ -1,0 +1,12 @@
+{
+    "chromeWebSecurity": false,
+    "numTestsKeptInMemory": 0,
+    "videoRecording": false,
+    "env": {
+        "DISPLAY": ":99"
+    },
+    "chromeArgs": [
+        "--no-sandbox",
+        "--disable-gpu"
+    ]
+}
